@@ -12,4 +12,6 @@ $app = new App(["settings" => $config]);
 $container = $app->getContainer();
 $container['db'] = config_db();
 
+require_once('../src/routes/sections.php');
+
 $app->run();
