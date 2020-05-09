@@ -1,6 +1,8 @@
 {
     "require": {
         "slim/slim": "3.0",
-        "vlucas/phpdotenv": "4.1.5"
+        "vlucas/phpdotenv": "4.1.5",
+        "ext-pdo": "*",
+        "ext-json": "*"
     }
 }
