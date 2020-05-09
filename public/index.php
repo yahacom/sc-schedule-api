@@ -46,5 +46,6 @@ $container['phpErrorHandler'] = function ($c) {
 };
 
 require_once('../src/routes/sections.php');
+require_once('../src/routes/schedule.php');
 
 $app->run();
